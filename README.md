@@ -41,6 +41,15 @@ _Example workflow that retrieves the system prompt for the agent from Langfuse:_
 
 ![n8n-changelog](https://github.com/user-attachments/assets/4d224c2f-86b6-4ad4-a64a-45c7fe6e3595)
 
+## Get dataset items
+
+This node can be used to get [dataset](https://langfuse.com/docs/evaluation/dataset-runs/datasets) items page by page.
+
+Steps
+
+1. Enter the `name` of the dataset
+2. Enter the `page` and `limit` paramters
+
 ## Credentials
 
 To use this node, you need to authenticate with Langfuse. You'll need:
